@@ -1,0 +1,51 @@
+body{
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#score{
+    margin-left: 30px;
+    float: left;
+    font-size: 25px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+#timer{
+    margin-right: 30px;
+    float: right;
+    font-size: 25px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+#sketch_name{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(112, 59, 226);
+}
+#sketch,#confidence{
+    font-size: 20px;
+}
+#show_sketch{
+    float: right;
+    margin-right: 30px;
+}
+h1{
+    margin-left: 8%;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+canvas{
+    background-color: white;
+    border: 8px solid black;
+    border-radius: 20px;
+    animation-name: back;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 10%;
+}
+@keyframes back{
+    from{box-shadow: 1px 1px 30px rgb(255, 208, 216); border-color: purple;}
+
+    to{box-shadow: 1px 1px 30px rgb(170, 47, 170); border-color: pink;}
+}
